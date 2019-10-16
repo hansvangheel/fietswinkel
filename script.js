@@ -3,7 +3,7 @@ $(document).ready(function () {
   // reageer op change event op radio button
   $("[name='fietstype']").on("change", function () {
     var checked = $("[name='fietstype']:checked").val();
-    console.log(checked);
+    alert("Je gekozen fietstype is: " + checked + " Kies uw fietskader");
 
     if (checked == "Stadsfiets dames") {
 
@@ -97,11 +97,4 @@ $(document).ready(function () {
   })
 });
 
-$(document).ready(function(){
-  $("input[type='button']").click(function(){
-      var radioValue = $("input[name='fietstype']:checked").val();
-      if(radioValue){
-          alert("Je gekozen fietstype is - " + radioValue);
-      }
-  });
-});
+  
