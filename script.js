@@ -96,3 +96,12 @@ $(document).ready(function () {
     }
   })
 });
+
+$(document).ready(function(){
+  $("input[type='button']").click(function(){
+      var radioValue = $("input[name='fietstype']:checked").val();
+      if(radioValue){
+          alert("Je gekozen fietstype is - " + radioValue);
+      }
+  });
+});
