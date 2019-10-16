@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <h1 class="center tittillium">Fietswinkel Hans</h1>
+    <h1 class="center primaryfont">Fietswinkel Hans</h1>
+    <h3 class="center primaryfont">Selecteer uw fietstype</h3>
 
-    <br>
-
-    <h1 class="center tittillium">Selecteer uw fietstype</h1>
-
-    <form method="post" action="Tests/post">
+    <form class="center primaryfont" method="post" action="Tests/post">
         <fieldset>
             <input type="radio" name="fietstype" value="Stadsfiets dames">Stadsfiets dames<br>
             <input type="radio" name="fietstype" value="Stadsfiets heren">Stadsfiets heren<br>
@@ -26,6 +24,7 @@
         </fieldset>
 
         <fieldset>
+
             <label for="Maat 43">Maat 43</label>
             <input type="radio" name="fietskader" value="Maat 43" id="Maat43"><br>
 
@@ -40,6 +39,8 @@
 
             <label for="Geen maat">Geen maat</label>
             <input type="radio" name="fietskader" value="Geen maat" id="Geenmaat">
+
+
         </fieldset>
         <br>
         <br>
