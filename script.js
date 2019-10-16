@@ -10,18 +10,17 @@ $(document).ready(function () {
       $("[for='Maat 43']").hide();
       $("#Maat43").hide();
 
-      $("[for='Maat 61']").hide();
-      $("#Maat61").hide();
-
-      $("[for='Geen maat']").hide();
-      $("#Geenmaat").hide();
-
       $("[for='Maat 50']").show();
       $("#Maat50").show();
 
       $("[for='Maat 57']").show();
       $("#Maat57").show();
 
+      $("[for='Maat 61']").hide();
+      $("#Maat61").hide();
+
+      $("[for='Geen maat']").hide();
+      $("#Geenmaat").hide();
     }
 
     if (checked == "Stadsfiets heren") {
@@ -95,12 +94,5 @@ $(document).ready(function () {
       $("[for='Geen maat']").show();
       $("#Geenmaat").show();
     }
-
-
-
-
   })
-
-
-
 });
