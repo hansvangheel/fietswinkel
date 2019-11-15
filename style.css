@@ -1,6 +1,7 @@
 body{
     background-color: green;
     height : 100vh;
+    font-size: 18pt;
 }
 
 .center {
@@ -11,6 +12,3 @@ body{
 font-family: 'Titillium Web', sans-serif;
 }
 
-.size24 {
-font-size: 24pt;
-}
